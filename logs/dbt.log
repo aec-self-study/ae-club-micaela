@@ -1,0 +1,106 @@
+[0m21:11:00.419644 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d512df507c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d512c7f9b70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d512c7f9b10>]}
+
+
+============================== 21:11:00.423154 | 41969509-792e-4343-83bc-ecfbf4f62cb5 ==============================
+[0m21:11:00.423154 [info ] [MainThread]: Running with dbt=1.8.1
+[0m21:11:00.423841 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init coffee_shop_micaela', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:11:00.432259 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/vscode/.dbt')}
+[0m21:11:00.432868 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m21:11:00.434307 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m21:11:00.439237 [info ] [MainThread]: 
+Your new dbt project "coffee_shop_micaela" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:11:00.439885 [info ] [MainThread]: Setting up your profile.
+[0m21:11:28.695838 [info ] [MainThread]: Profile coffee_shop_micaela written to /home/vscode/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:11:28.697581 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 28.32656, "process_user_time": 1.602541, "process_kernel_time": 0.310425, "process_mem_max_rss": "187964", "process_in_blocks": "40", "process_out_blocks": "80"}
+[0m21:11:28.698256 [debug] [MainThread]: Command `dbt init` succeeded at 21:11:28.698148 after 28.33 seconds
+[0m21:11:28.698855 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d512df507c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d512c7f9d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d512c7fafe0>]}
+[0m21:11:28.699340 [debug] [MainThread]: Flushing usage events
+[0m21:11:41.546981 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7649dc17c820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7649da87dbd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7649da87db40>]}
+
+
+============================== 21:11:41.550652 | 9c7b30ac-4e0d-4bc3-8693-ae8433c9403e ==============================
+[0m21:11:41.550652 [info ] [MainThread]: Running with dbt=1.8.1
+[0m21:11:41.551329 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:11:41.559801 [info ] [MainThread]: dbt version: 1.8.1
+[0m21:11:41.560455 [info ] [MainThread]: python version: 3.10.12
+[0m21:11:41.560944 [info ] [MainThread]: python path: /usr/bin/python3
+[0m21:11:41.561411 [info ] [MainThread]: os info: Linux-6.5.0-1019-azure-x86_64-with-glibc2.35
+[0m21:11:42.214558 [info ] [MainThread]: Using profiles dir at /home/vscode/.dbt
+[0m21:11:42.215463 [info ] [MainThread]: Using profiles.yml file at /home/vscode/.dbt/profiles.yml
+[0m21:11:42.217156 [info ] [MainThread]: Using dbt_project.yml file at /workspaces/ae-club-micaela/dbt_project.yml
+[0m21:11:42.217844 [info ] [MainThread]: adapter type: bigquery
+[0m21:11:42.218459 [info ] [MainThread]: adapter version: 1.8.1
+[0m21:11:42.219100 [info ] [MainThread]: Configuration:
+[0m21:11:42.219744 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:11:42.220370 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:11:42.220906 [info ] [MainThread]: Required dependencies:
+[0m21:11:42.221434 [debug] [MainThread]: Executing "git --help"
+[0m21:11:42.224445 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:11:42.224917 [debug] [MainThread]: STDERR: "b''"
+[0m21:11:42.225323 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:11:42.225912 [info ] [MainThread]: Connection:
+[0m21:11:42.226506 [info ] [MainThread]:   method: oauth
+[0m21:11:42.227115 [info ] [MainThread]:   database: aec-students
+[0m21:11:42.227719 [info ] [MainThread]:   execution_project: aec-students
+[0m21:11:42.228302 [info ] [MainThread]:   schema: dbt_micaela
+[0m21:11:42.228944 [info ] [MainThread]:   location: US
+[0m21:11:42.229534 [info ] [MainThread]:   priority: interactive
+[0m21:11:42.230069 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m21:11:42.230568 [info ] [MainThread]:   impersonate_service_account: None
+[0m21:11:42.231048 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m21:11:42.231585 [info ] [MainThread]:   job_retries: 1
+[0m21:11:42.232126 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m21:11:42.232670 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m21:11:42.233276 [info ] [MainThread]:   timeout_seconds: 300
+[0m21:11:42.233857 [info ] [MainThread]:   client_id: None
+[0m21:11:42.234472 [info ] [MainThread]:   token_uri: None
+[0m21:11:42.235061 [info ] [MainThread]:   dataproc_region: None
+[0m21:11:42.235595 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m21:11:42.236150 [info ] [MainThread]:   gcs_bucket: None
+[0m21:11:42.236717 [info ] [MainThread]:   dataproc_batch: None
+[0m21:11:42.237440 [info ] [MainThread]: Registered adapter: bigquery=1.8.1
+[0m21:11:42.239893 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m21:11:42.240630 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:11:42.245391 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  Failed to authenticate with supplied credentials
+  error:
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.'
+[0m21:11:42.246241 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m21:11:42.247101 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m21:11:42.247855 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </workspaces/ae-club-micaela/dbt_project.yml> not found
+
+[0m21:11:42.248706 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Runtime Error
+    Failed to authenticate with supplied credentials
+    error:
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m21:11:42.250167 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.75004894, "process_user_time": 1.726286, "process_kernel_time": 0.292323, "process_mem_max_rss": "198612", "process_in_blocks": "48", "process_out_blocks": "32", "command_success": false}
+[0m21:11:42.251182 [debug] [MainThread]: Command `dbt debug` failed at 21:11:42.251037 after 0.75 seconds
+[0m21:11:42.252284 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:11:42.253441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7649dc17c820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7649c7598ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7649c7598d00>]}
+[0m21:11:42.254219 [debug] [MainThread]: Flushing usage events

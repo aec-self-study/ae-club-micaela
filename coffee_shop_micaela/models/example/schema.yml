@@ -14,7 +14,7 @@ models:
   - name: monthly_customers
     description: "second week SQL"
     columns:
-      - name: 
+      - name: customer_id
         data_tests:
           - unique
           - not_null
